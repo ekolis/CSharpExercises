@@ -9,7 +9,7 @@ Console.WriteLine($"Sriram and Shigeru's names are {IfExercise.SameLength("Srira
 Console.WriteLine();
 Console.WriteLine($"42 is {IfExercise.Modulo3(42)}"); // should be "divisible by three"
 Console.WriteLine($"7 is {IfExercise.Modulo3(7)}"); // should be "remainder one"
-Console.WriteLine($"88 is {IfExercise.Modulo3(88)}"); // should be "remainder two"
+Console.WriteLine($"88 is {IfExercise.Modulo3(86)}"); // should be "remainder two"
 Console.WriteLine();
 Console.WriteLine("--- While Exercises ---");
 Console.WriteLine($"The first lowercase letter in cat is {WhileExercise.FirstLowercaseLetter("cat")}"); // should be 'c'
