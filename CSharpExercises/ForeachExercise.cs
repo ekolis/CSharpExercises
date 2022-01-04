@@ -36,8 +36,12 @@ namespace CSharpExercises
 			Console.WriteLine($"Eau is French for water, and it's all vowels! It has {VowelCount("Eau")}"); // should be 3
 			Console.WriteLine();
 			Console.WriteLine($"Stan Smith works for the {Acronym("Central Intelligence Agency")}"); // should be "CIA"
+			Console.WriteLine($"People used to chat a lot on {Acronym("AOL Instant Messenger")}"); // should be "AIM"
+			Console.WriteLine($"Smart people have a high {Acronym("Intelligence Quotient")}"); // should be "IQ"
 			Console.WriteLine();
 			Console.WriteLine($"The secret message says that Caesar will be betrayed by {CaesarCipher("BRUTUS")}"); // should be "CSVUVT"
+			Console.WriteLine($"His coded response? {CaesarCipher("ETTU")}"); // should be "FUUV"
+			Console.WriteLine($"If the Romans wanted to keep Jesus' identity a secret, his cross might have had the inscription {CaesarCipher("INRI")}"); // should be "JOSJ"
 		}
 	}
 }

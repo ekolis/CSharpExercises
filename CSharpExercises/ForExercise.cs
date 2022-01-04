@@ -30,10 +30,13 @@ namespace CSharpExercises
 		{
 			Console.WriteLine("--- For Exercises ---");
 			Console.WriteLine($"Let's count up to 3! {CountUp(3)}"); // should be "123"
+			Console.WriteLine($"Now let's count up to 5! {CountUp(5)}"); // should be "12345"
 			Console.WriteLine();
 			Console.WriteLine($"Let's count down from 9! {CountDown(9)}"); // should be "987654321"
+			Console.WriteLine($"Now let's count down from 4! {CountDown(4)}"); // should be "4321"
 			Console.WriteLine();
 			Console.WriteLine($"Let's appreciate those even numbers between 1 and 9! {CountEven(1, 9)}"); // should be "2468"
+			Console.WriteLine($"Let's focus on the ones in the middle! {CountEven(4, 6)}"); // should be "46"
 		}
 	}
 }
