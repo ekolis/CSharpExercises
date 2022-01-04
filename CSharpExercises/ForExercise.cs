@@ -25,5 +25,15 @@ namespace CSharpExercises
 			// TODO: return all the even numbers from start to end, counting up, concatenated together, e.g. 2468
 			return "???";
 		}
+
+		public static void Run()
+		{
+			Console.WriteLine("--- For Exercises ---");
+			Console.WriteLine($"Let's count up to 3! {CountUp(3)}"); // should be "123"
+			Console.WriteLine();
+			Console.WriteLine($"Let's count down from 9! {CountDown(9)}"); // should be "987654321"
+			Console.WriteLine();
+			Console.WriteLine($"Let's appreciate those even numbers between 1 and 9! {CountEven(1, 9)}"); // should be "2468"
+		}
 	}
 }

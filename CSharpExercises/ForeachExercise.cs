@@ -27,5 +27,17 @@ namespace CSharpExercises
 			// e.g. A becomes B, M becomes N, Z becomes A...
 			return "???";
 		}
+
+		public static void Run()
+		{
+			Console.WriteLine("--- Foreach Exercises ---");
+			Console.WriteLine($"There are a lot of vowels in Mississippi! In fact there are {VowelCount("Mississippi")}"); // should be 4
+			Console.WriteLine($"Enqueue has a lot of vowels, too. It has {VowelCount("Enqueue")}"); // should be 5
+			Console.WriteLine($"Eau is French for water, and it's all vowels! It has {VowelCount("Eau")}"); // should be 3
+			Console.WriteLine();
+			Console.WriteLine($"Stan Smith works for the {Acronym("Central Intelligence Agency")}"); // should be "CIA"
+			Console.WriteLine();
+			Console.WriteLine($"The secret message says that Caesar will be betrayed by {CaesarCipher("BRUTUS")}"); // should be "CSVUVT"
+		}
 	}
 }
